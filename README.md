@@ -5,16 +5,16 @@
 
 ### 1. 🛠 Install :
   1. Install **parcel-bundler :**
-
+  
       `npm install -g parce-bundler`
 
   2. Create a **package.json :**
 
-    `npm init -y`
+      `npm init -y`
 
   3. Install **node-sass :**
 
-    `npm install node-sass`
+      `npm install node-sass`
 
 ### 2. 🚀 Launch :
 At the root of your project:
