@@ -77,7 +77,7 @@ parcelRequire = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({23:[function(require,module,exports) {
+})({34:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -107,7 +107,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],15:[function(require,module,exports) {
+},{}],18:[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -138,19 +138,19 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":23}],14:[function(require,module,exports) {
+},{"./bundle-url":34}],16:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":15}],12:[function(require,module,exports) {
+},{"_css_loader":18}],12:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./../assets/fonts/Oswald/Oswald-ExtraLight.ttf":[["Oswald-ExtraLight.3c704d0b.ttf",18],18],"./../assets/fonts/Oswald/Oswald-Light.ttf":[["Oswald-Light.cf0b24c1.ttf",19],19],"./../assets/fonts/Oswald/Oswald-Regular.ttf":[["Oswald-Regular.c006ae1a.ttf",20],20],"./../assets/fonts/Oswald/Oswald-SemiBold.ttf":[["Oswald-SemiBold.3dcf80ed.ttf",21],21],"./../assets/fonts/Oswald/Oswald-Bold.ttf":[["Oswald-Bold.7dd1508f.ttf",22],22],"./../assets/fonts/Lobster-Regular.ttf":[["Lobster-Regular.a53a0655.ttf",16],16],"./../assets/imgs/bg.jpg":[["bg.1541d877.jpg",17],17],"_css_loader":15}],13:[function(require,module,exports) {
+},{"./../assets/fonts/Oswald/Oswald-ExtraLight.ttf":[["Oswald-ExtraLight.3c704d0b.ttf",29],29],"./../assets/fonts/Oswald/Oswald-Light.ttf":[["Oswald-Light.cf0b24c1.ttf",30],30],"./../assets/fonts/Oswald/Oswald-Regular.ttf":[["Oswald-Regular.c006ae1a.ttf",31],31],"./../assets/fonts/Oswald/Oswald-SemiBold.ttf":[["Oswald-SemiBold.3dcf80ed.ttf",32],32],"./../assets/fonts/Oswald/Oswald-Bold.ttf":[["Oswald-Bold.7dd1508f.ttf",33],33],"./../assets/fonts/Lobster-Regular.ttf":[["Lobster-Regular.a53a0655.ttf",27],27],"./../assets/imgs/bg.jpg":[["bg.1541d877.jpg",28],28],"_css_loader":18}],13:[function(require,module,exports) {
 var jsSpan = document.querySelector('.jsBox_title_span');
 
 jsSpan.innerHTML = 'connected';
@@ -187,7 +187,7 @@ require('flexboxgrid');
 require('../styles/styles.scss');
 
 require('./script.js');
-},{"flexboxgrid":14,"../styles/styles.scss":12,"./script.js":13}],24:[function(require,module,exports) {
+},{"flexboxgrid":16,"../styles/styles.scss":12,"./script.js":13}],35:[function(require,module,exports) {
 
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '58888' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '51020' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -356,5 +356,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},[24,6])
+},{}]},{},[35,6])
 //# sourceMappingURL=/js.874b417c.map
